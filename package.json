@@ -1,4 +1,6 @@
 {
+"homepage" : "http://nidhi2A1234.github.io/rea",
+
   "name": "rea",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy" : "gh-pages -d",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "e": "^0.2.2",
+    "gh-pages": "^4.0.0"
   }
 }
